@@ -42,7 +42,7 @@ export function ComingSoon({ onBack }: ComingSoonProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-center space-y-12 max-w-4xl w-full"
+          className="text-center space-y-6 max-w-4xl w-full"
         >
           {/* Logo Section */}
           <div className="space-y-6">
@@ -59,7 +59,7 @@ export function ComingSoon({ onBack }: ComingSoonProps) {
           </div>
 
           {/* Divider */}
-          <div className="w-px h-32 bg-gradient-to-b from-transparent via-[#2d3f5f] to-transparent mx-auto" />
+          <div className="w-px h-16 bg-gradient-to-b from-transparent via-[#2d3f5f] to-transparent mx-auto" />
 
           {/* Coming Soon Message */}
           <div className="space-y-6">
@@ -69,7 +69,7 @@ export function ComingSoon({ onBack }: ComingSoonProps) {
           </div>
 
           {/* Contact Form */}
-          <div className="pt-8 w-full flex justify-center">
+          <div className="pt-4 w-full flex justify-center">
             <div className="border border-[#2d3f5f] bg-[#0a1628]/50 backdrop-blur-sm rounded-sm w-full max-w-[520px] p-8">
               <p className="text-[11px] uppercase tracking-[0.25em] text-[#e6c35c] mb-8">Contact Us</p>
 
