@@ -59,17 +59,15 @@ export function ComingSoon({ onBack }: ComingSoonProps) {
           </div>
 
           {/* Divider */}
-          <div className="w-px h-16 bg-gradient-to-b from-transparent via-[#2d3f5f] to-transparent mx-auto" />
+          <div className="w-px h-8 bg-gradient-to-b from-transparent via-[#2d3f5f] to-transparent mx-auto" />
 
           {/* Coming Soon Message */}
-          <div className="space-y-6">
-            <h2 className="text-[clamp(2rem,4vw,3.5rem)] font-light tracking-[-0.02em] text-[#e6c35c]">
-              Coming Soon
-            </h2>
-          </div>
+          <h2 className="text-[clamp(2rem,4vw,3.5rem)] font-light tracking-[-0.02em] text-[#e6c35c]">
+            Coming Soon
+          </h2>
 
           {/* Contact Form */}
-          <div className="pt-4 w-full flex justify-center">
+          <div className="w-full flex justify-center">
             <div className="border border-[#2d3f5f] bg-[#0a1628]/50 backdrop-blur-sm rounded-sm w-full max-w-[520px] p-8">
               <p className="text-[11px] uppercase tracking-[0.25em] text-[#e6c35c] mb-8">Contact Us</p>
 
