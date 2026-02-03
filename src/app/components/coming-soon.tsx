@@ -66,11 +66,6 @@ export function ComingSoon({ onBack }: ComingSoonProps) {
             <h2 className="text-[clamp(2rem,4vw,3.5rem)] font-light tracking-[-0.02em] text-[#e6c35c]">
               Coming Soon
             </h2>
-            <p className="text-[#94a3b8] max-w-lg mx-auto leading-relaxed text-lg font-light">
-              We are currently building a new digital experience for our clients.
-              <br />
-              <span className="text-[#f5f7fa] mt-2 block">Expected Launch Q3 2026</span>
-            </p>
           </div>
 
           {/* Contact Form */}
